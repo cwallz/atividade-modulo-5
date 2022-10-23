@@ -78,6 +78,18 @@ public class Transicao {
 	public void setTaxaSeguro(double taxaSeguro) {
 		this.taxaSeguro = taxaSeguro;
 	}
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+	public Destino getDestino() {
+		return destino;
+	}
+	public void setDestino(Destino destino) {
+		this.destino = destino;
+	}
 	
 	
 	//muitas transicoes para um cliente - quem recebe a FK
